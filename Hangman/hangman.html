@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <style>
+        @import url(hangman.css);
+        @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="gallows" class="sections"></div>
+        <div id="scoreInfo" class="sections"></div>
+        <div id="guessInfo" class="sections">
+            <div id="definition" class="guessInfo"></div>
+            <div id="correctlyGuessed" class="guessInfo"></div>
+            <div id="guessed" class="guessInfo"></div>
+        </div>
+        <div id="mouseInput" class="sections">
+            <span id="a" class="mouseInput" onclick="guessInput('a')">a</span>
+            <span id="b" class="mouseInput" onclick="guessInput('b')">b</span>
+            <span id="c" class="mouseInput" onclick="guessInput('c')">c</span>
+            <span id="d" class="mouseInput" onclick="guessInput('d')">d</span>
+            <span id="e" class="mouseInput" onclick="guessInput('e')">e</span>
+            <span id="f" class="mouseInput" onclick="guessInput('f')">f</span>
+            <span id="g" class="mouseInput" onclick="guessInput('g')">g</span>
+            <span id="h" class="mouseInput" onclick="guessInput('h')">h</span>
+            <span id="i" class="mouseInput" onclick="guessInput('i')">i</span>
+            <span id="j" class="mouseInput" onclick="guessInput('j')">j</span>
+            <span id="k" class="mouseInput" onclick="guessInput('k')">k</span>
+            <span id="l" class="mouseInput" onclick="guessInput('l')">l</span>
+            <span id="m" class="mouseInput" onclick="guessInput('m')">m</span>
+            <span id="n" class="mouseInput" onclick="guessInput('n')">n</span>
+            <span id="o" class="mouseInput" onclick="guessInput('o')">o</span>
+            <span id="p" class="mouseInput" onclick="guessInput('p')">p</span>
+            <span id="q" class="mouseInput" onclick="guessInput('q')">q</span>
+            <span id="r" class="mouseInput" onclick="guessInput('r')">r</span>
+            <span id="s" class="mouseInput" onclick="guessInput('s')">s</span>
+            <span id="t" class="mouseInput" onclick="guessInput('t')">t</span>
+            <span id="u" class="mouseInput" onclick="guessInput('u')">u</span>
+            <span id="v" class="mouseInput" onclick="guessInput('v')">v</span>
+            <span id="w" class="mouseInput" onclick="guessInput('w')">w</span>
+            <span id="x" class="mouseInput" onclick="guessInput('x')">x</span>
+            <span id="y" class="mouseInput" onclick="guessInput('y')">y</span>
+            <span id="z" class="mouseInput" onclick="guessInput('z')">z</span>
+        </div>
+        <div id="kbInput" class="sections">
+            <label for="textSolve" class="textSolve">Solve</label>
+            <input type="text" id="textSolve" name="textSolve" class="textSolve"><br><br>
+            <input type="submit" value="Submit" class="textSolve">
+        </div>
+    </div>
+    <!--<script type="text/javascript" src="hangman.json"></script>-->
+    <script type="text/javascript" src="hangman.js"></script>
+</body>
+</html>

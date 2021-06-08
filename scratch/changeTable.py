@@ -1,0 +1,8 @@
+pennies = input('Enter the amount of pennies: ')
+quarters = input('Enter the amount of quarters: ')
+dimes = input('Enter the amount of dimes: ')
+nickels = input('Enter the amount of nickels: ')
+dayOfTheWeek = input('What is the day of the week? ')
+print('-'*40)
+print(f'{pennies:<10}{quarters:>10}{dimes:<10}{nickels:>10}')
+print(dayOfTheWeek.center(50))

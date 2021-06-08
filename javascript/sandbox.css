@@ -1,0 +1,12 @@
+body {
+    background-color: #5c02f7;
+}
+#demo {
+    width: 100vw;
+    border: solid blue .2rem;
+    height: 50px;
+    background-color: #dce1e8;
+    text-align: center;
+    margin: .5rem auto;
+    padding: 2rem 0;
+}
