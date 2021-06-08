@@ -1,0 +1,42 @@
+#gradient
+{
+    height:500px;
+    width:500px;
+    border:1px solid black;
+    background: linear-gradient(0deg, #77b3f0 15%, #ff0055, #fd9301, #ffdd23, #ff5f58, #9c2ea1, #000000 85% 100%);
+    /*
+    Sunrises, Sunrise:
+    #fa7900, #fc6503, #fd5908, #ff3d14, #ff001e == #77b3f0 == #de952f, #de7a13, #de6c05, #dc3100, #db0000
+    #ff0055, #fd9301, #ffdd23, #ff5f58, #9c2ea1 == #5c8aff == #ffc100, #ec610a, #a30a3b, #6b0848, #42052d
+    #ffd14b, #ffae42, #fe4a15, #e7360d, #8b0000 == #87ceeb == #ff9020, #e36c4e, #d84242, #7a2477, #3d1b81
+    #dedede, #dbd4d4, #d7cccc, #d5b0b0, #c89898 == #f5f5f5 == #ffceb4, #ffb6a5, #e5989b, #b4838d, #726c7a
+
+    #ec49cf, #d04dfa, #a03bc0, #5e128f, #370077
+    #fffffb, #fff5ee, #ffebe9, #ffdfe1, #daa4aa
+
+    Sunsets:
+    #eeeeee, #cccccc, #abaaaa, #929292, #4d4d4d
+    #0083c3, #4094b4, #ffb400, #ff9a00, #ff7400
+    #a8c5d6, #becedd, #cbd8df, #e7d0e5, #8b8684
+
+    #bfd6d7
+    #ded6cc
+    #7cd6fc
+    #add8e6
+    */
+
+    background-size: 100% 100%;
+    animation: Animation 24s ease infinite;
+}
+@keyframes Animation { 
+    0%{background-position:top}
+    25%{background-position:top}
+    30%{background-position:bottom}
+    70%{background-position:bottom}
+    75%{background-position:top}
+    100%{
+    background: linear-gradient(0deg, #77b3f0 15%, #ffc100, #ec610a, #a30a3b, #6b0848, #42052d, #000000 85% 100%);
+    background-size: 100% 100%;
+        background-position:top
+    }
+}
